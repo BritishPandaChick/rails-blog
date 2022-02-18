@@ -49,7 +49,14 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 # Making errors better looking 
-get 'better_errors', '~> 2.4'
+gem 'better_errors', '~> 2.4'
+
+# Bulma CSS
+gem 'bulma-rails', '~> 0.9.2'
+
+# Simple Form 
+gem 'simple_form', '~> 5.1'
+
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -65,6 +72,12 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  # Guard
+  gem 'guard', '~> 2.14', '>= 2.14.1'
+
+  # Guard Live Reload
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
 end
 
 group :test do
