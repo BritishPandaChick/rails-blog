@@ -1,24 +1,23 @@
-# README
+# Rails Blog
+Rails blog from Build your first Rails app course on the Free Code Camp channel.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# RailsFriends
+Rails Friend app project from Free Code Camp Learn Ruby on Rails course.
 
-Things you may want to cover:
+## Dependencies
+- Ruby on Rails
+- Ruby
 
-* Ruby version
+### Gems
+- Better Errors
+- Bulma 
+- Guard
+- Guard LiveReload
+- Simple Form
 
-* System dependencies
+## Contributions
+I will not be accepting pull requests.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Acknowledgements
+* Andy Leverenz
+* Free Code Camp 
